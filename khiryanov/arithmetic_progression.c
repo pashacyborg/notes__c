@@ -13,7 +13,7 @@ int main()
 	int index = (step > 0)? +1 : -1;
 	int x = start;
 	
-	while(index*x < index*end)
+	while(index*x < index*end) 
 	{
 		printf("x = %d\n", x);
 		x += step;
